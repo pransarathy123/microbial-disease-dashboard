@@ -2,6 +2,10 @@
 
 An interactive public health data science dashboard analyzing reported infectious disease trends in California using CDC NNDSS weekly surveillance data.
 
+## Live Dashboard
+
+View the deployed dashboard here: [Infectious Disease Surveillance Dashboard](https://microbial-disease-dashboard.streamlit.app/)
+
 ## Project Overview
 
 This project uses Python, pandas, matplotlib, and Streamlit to explore weekly reported cases of infectious diseases in California. The dashboard allows users to select a disease, compare available years, adjust the rolling average window, view yearly summary metrics, and identify unusually high reporting weeks using a z-score threshold.
