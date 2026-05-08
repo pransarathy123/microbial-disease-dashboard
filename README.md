@@ -31,6 +31,10 @@ The project was built to connect microbial biology, public health, and data scie
 - Streamlit
 - CDC NNDSS weekly surveillance data
 
+## Data Source
+
+This project uses CDC National Notifiable Diseases Surveillance System (NNDSS) weekly surveillance data accessed through Data.CDC.gov. NNDSS weekly data are considered provisional, while annual data are finalized after reconciliation and verification with reporting jurisdictions.
+
 ## Methods
 
 The dataset was filtered to California and cleaned using pandas. Weekly case counts were converted into numeric values and grouped by disease, year, and MMWR week. A rolling average was calculated to smooth week-to-week reporting variation. Yearly summary metrics were generated using total reported cases, average weekly reported cases, median weekly reported cases, maximum weekly counts, and minimum weekly counts.
